@@ -1,5 +1,6 @@
-#.................Task 9.......................
-#.....Performing Arithematic operation.........
+#.................Task 9...........................
+#.....Performing Arithematic operation..............
+#..Implementation of Syntax,Logical or Runtime Error
 
 #define function
 #Compilation Error(1),colon is missing
@@ -29,6 +30,7 @@ while True:
         choice=input("Enter your choice(1,2,3,4):" 
         
         #Runtime Error(1), choice 1 doesn't have single qoutes
+        #if choice in('1','2','3','4'):
         if choice in (1,'2','3','4'):   
                     
 
