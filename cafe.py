@@ -1,5 +1,5 @@
 
-# ...............TASK11.................................
+# ...............TASK_12.................................
 # .....Implementing list,dictionary in  a program.......
 # creating menu_cafe List with four items:
 
@@ -13,7 +13,7 @@ stock_dict={"coffee":20,
             "Hot_chocolate":40}
 
 # creating dictionary for price of item:
-# # Assign price for each item:
+# Assign price for each item:
 
 price_dict={"coffee":3.45,
             "sandwich":4.25,
