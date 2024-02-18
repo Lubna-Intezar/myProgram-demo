@@ -1,8 +1,11 @@
+#....................Task 14......................................
+#........Implementing user defined function.......................
+
 def hotel_cost(num_nights):                         #define function hotel_cost with 1 argument 
-    return num_nights * 120                          # per_night cost of hotel is £120
+    return num_nights * 120                         # per_night cost of hotel is £120
 
 def plane_cost(city_flight):                        #define function plane_cost with 1 argument
-    if city_flight == "Paris":                      #option for city flight with cost
+    if city_flight == "Paris":                      #Option for city flight with cost
         return 500
     elif city_flight == "London":     
         return 800
