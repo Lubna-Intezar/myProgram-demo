@@ -1,5 +1,5 @@
-#....................Task 14......................................
-#........Implementing user defined function.......................
+
+#........Basic Calucator for calculating  travel cost.......................
 
 def hotel_cost(num_nights):                         #define function hotel_cost with 1 argument 
     return num_nights * 120                         # per_night cost of hotel is £120
@@ -11,9 +11,7 @@ def plane_cost(city_flight):                        #define function plane_cost 
         return 800
     elif city_flight.capitalize() == "India" : 
         return 1000  
-    
-        #else:           
-            #return                                         # Use a default cost for unknown cities
+                                           
 
 def car_rental(rental_days):                          #define function car_rental with 1 argument
     return rental_days * 30                           # Replace with your desired daily cost
@@ -22,7 +20,7 @@ def holiday_cost(hotel_cost, plane_cost, car_rental):  #define function holiday 
     return hotel_cost + plane_cost + car_rental        #return total cost of holiday
 while True:
     try:
-            # Get user input
+            # getting appropriate user input for each city
             city_flight = input("Enter city you're flying to: ")
             num_nights = int(input("Enter number of nights staying: "))
             rental_days = int(input("Enter number of days renting a car: "))
@@ -36,7 +34,7 @@ while True:
             total_cost = holiday_cost(hotel_cost_result, plane_cost_result, car_rental_result)
 
             # Print results in a readable format
-            print(f"Summary of your holiday trip:")
+            print(f"Summary of your holiday trip:") #summarize the trip details
             print(f"  City: {city_flight}")
             print(f"  Nights staying: {num_nights}")
             print(f"  Days renting car: {rental_days}")
@@ -46,4 +44,4 @@ while True:
             print(f"  Total holiday cost: {total_cost}")
     except:
             print("please enter available city")
-            break
+            break #to come out from indefinite loop 
