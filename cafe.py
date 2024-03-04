@@ -21,7 +21,7 @@ price_dict={"coffee":3.45,
             "Hot_chocolate":2.45}
 
 # initializing total_stock:
-total_stock_worth=0
+total_stock_networth=0
 
 # going through loop to each item:
 for item in menu_cafe:
@@ -29,5 +29,5 @@ for item in menu_cafe:
     item_value=(stock_dict[item]*price_dict[item]) 
 
     #caculate total stock worth for these items:
-    total_stock_worth+=item_value 
-print("The total stock value worth is {} : ".format(total_stock_worth))
+    total_stock_networth+=item_value 
+print("The total stock value worth is {} : ".format(total_stock_networth))
