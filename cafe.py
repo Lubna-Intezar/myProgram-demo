@@ -3,14 +3,16 @@
 # .....Implementing list,dictionary in  a program.......
 # creating menu_cafe List with four items:
 
-menu_cafe=["coffee","sandwich","cupcake","Hot_chocolate"]
+menu_cafe=["coffee","sandwich","cupcake","Hot_chocolate,cold_drink,chocolate"]
 
 # creating dictionary for stock values:
 # Assign stock values for each item:
 stock_dict={"coffee":20,
             "sandwich":30,
             "cupcake":10,
-            "Hot_chocolate":40}
+            "Hot_chocolate":40,
+            "cold_drink":10,
+            "chocolate":5}
 
 # creating dictionary for price of item:
 # Assign price for each item:
@@ -18,7 +20,9 @@ stock_dict={"coffee":20,
 price_dict={"coffee":3.45,
             "sandwich":4.25,
             "cupcake":3.99,
-            "Hot_chocolate":2.45}
+            "Hot_chocolate":2.45,
+            "cold_drink":1.45,
+            "chocolate":1.74}
 
 # initializing total_stock:
 total_stock_networth=0
