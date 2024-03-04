@@ -1,0 +1,9 @@
+species,island,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
+Adelie,Torgersen,39.1,18.7,181,3750
+Adelie,Torgersen,39.5,17.4,186,3800
+Adelie,Torgersen,40.3,18,195,3250
+Adelie,Torgersen,NA,NA,NA,NA
+Adelie,Torgersen,36.7,19.3,193,3450
+Gentoo,Biscoe,45.5,14.8,215,4200
+Gentoo,Biscoe,49.5,16.1,218,4750
+Gentoo,Biscoe,42.8,15.5,201,3800

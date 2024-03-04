@@ -11,7 +11,7 @@ total_sales = df["sales"].sum()# Calculate the total sales across all months
 print("Total sales across all months:", total_sales)# Print the total sales
 
 df["Change"] = df["sales"].pct_change() * 100    # This method calculates the percentage change between the current and previous element in the 'sales' column. It computes the percentage change as (current - previous) / previous.
-#print(df) 
+print(df) 
 
 average_sales = df["sales"].mean()  #Calculate the average sales across all months
 print("Average sales across all months:", average_sales)# Print the average sales
